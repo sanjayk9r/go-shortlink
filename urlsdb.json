@@ -1,0 +1,14 @@
+{
+	"druid": "https://druid.apache.org/",
+	"pinot": "https://pinot.apache.org/",
+	"chatgpt": "https://chatgpt.com/",
+	"trino": "https://trino.io/docs/current/index.html",
+	"gdocs": "https://docs.google.com/",
+	"gmail": "https://mail.google.com/",
+	"ymail": "https://login.yahoo.com/",
+	"github": "https://github.com/",
+	"bhartgas": "https://my.ebharatgas.com/bharatgas/User/Login",
+	"clickhouse": "https://clickhouse.com/docs",
+	"yfinance": "https://finance.yahoo.com/quote/WMT/",
+	"youtube": "https://www.youtube.com/"
+}
