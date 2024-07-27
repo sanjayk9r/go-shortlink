@@ -1,4 +1,7 @@
 {
+	"udemy": "https://www.udemy.com/join/login-popup/?locale=en_US&response_type=html&next=https%3A%2F%2Fwww.udemy.com%2F",
+	"zoom": "https://us05web.zoom.us/signin#/login",
+	"gitscm": "https://git-scm.com/book/en/v2",
 	"druid": "https://druid.apache.org/",
 	"pinot": "https://pinot.apache.org/",
 	"chatgpt": "https://chatgpt.com/",
@@ -7,7 +10,7 @@
 	"gmail": "https://mail.google.com/",
 	"ymail": "https://login.yahoo.com/",
 	"github": "https://github.com/",
-	"bhartgas": "https://my.ebharatgas.com/bharatgas/User/Login",
+	"bharatgas": "https://my.ebharatgas.com/bharatgas/User/Login",
 	"clickhouse": "https://clickhouse.com/docs",
 	"yfinance": "https://finance.yahoo.com/quote/WMT/",
 	"youtube": "https://www.youtube.com/"

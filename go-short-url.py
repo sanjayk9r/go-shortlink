@@ -1,16 +1,15 @@
 """ Local "go" short-link service """
 # Author: sanjayk9r@
 
-import logging
 import json
 import sys
+import logging
 from flask import Flask, request, redirect, render_template
 
 app = Flask(__name__)
 
-logger = logging.getLogger("go-short-url")
-ConsoleOutputHandler = logging.StreamHandler()
-logger.addHandler(ConsoleOutputHandler)
+# configure root logger
+logging.basicConfig(format="[%(asctime)s] %(levelname)s in %(module)s: %(message)s", level=logging.INFO)
 
 # Load URLs
 with open('urlsdb.json', encoding='utf8') as urlsdb:
@@ -23,10 +22,10 @@ def go(e):
     try:
         url = urls[sr]
     except KeyError:
-        logger.error("Record %s not found in localdb", sr)
+        app.logger.error("Record %s not found in localdb", sr)
         return render_template('404.html'), 404
 
-    logger.info("Redirecting for URL: %s", url)
+    app.logger.info("Redirecting for URL: %s", url)
     return redirect(url, code=302)
 
 @app.route('/listdb', methods=['GET'])
@@ -41,4 +40,4 @@ def index():
     return render_template('index.html')
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8080, host="127.0.0.1")
+    app.run(debug=True, port=80, host="127.0.0.1")
