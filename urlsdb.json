@@ -14,5 +14,7 @@
 	"clickhouse": "https://clickhouse.com/docs",
 	"yfinance": "https://finance.yahoo.com/quote/WMT/",
 	"youtube": "https://www.youtube.com/",
-	"yahoo": "https://yahoo.com"
+	"yahoo": "https://yahoo.com",
+	"golang": "https://go.dev/doc/effective_go",
+	"gopkg": "https://pkg.go.dev/"
 }

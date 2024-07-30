@@ -2,18 +2,19 @@
 # Author: sanjayk9r@
 
 import json
-import sys
 import logging
 from flask import Flask, request, redirect, render_template
 
 app = Flask(__name__)
 
 # configure root logger
-logging.basicConfig(format="[%(asctime)s] %(levelname)s in %(module)s: %(message)s", level=logging.INFO)
+logging.basicConfig(format="[%(asctime)s] %(levelname)s \
+                    in %(module)s: %(message)s", level=logging.INFO)
 
 # Load URLs
 with open('urlsdb.json', encoding='utf8') as urlsdb:
     urls = json.load(urlsdb)
+
 
 @app.errorhandler(404)
 def go(e):
@@ -28,6 +29,7 @@ def go(e):
     app.logger.info("Redirecting for URL: %s", url)
     return redirect(url, code=302)
 
+
 @app.route('/listdb', methods=['GET'])
 def listdb():
     """ My "go" short-link service list registered URL """
@@ -38,6 +40,7 @@ def listdb():
 def index():
     """ My "go" short-link service home page """
     return render_template('index.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True, port=80, host="127.0.0.1")
