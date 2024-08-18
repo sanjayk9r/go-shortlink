@@ -1,20 +1,7 @@
 {
-	"udemy": "https://www.udemy.com/join/login-popup/?locale=en_US&response_type=html&next=https%3A%2F%2Fwww.udemy.com%2F",
-	"zoom": "https://us05web.zoom.us/signin#/login",
-	"gitscm": "https://git-scm.com/book/en/v2",
-	"druid": "https://druid.apache.org/",
-	"pinot": "https://pinot.apache.org/",
-	"chatgpt": "https://chatgpt.com/",
-	"trino": "https://trino.io/docs/current/index.html",
-	"gdocs": "https://docs.google.com/",
-	"gmail": "https://mail.google.com/",
-	"ymail": "https://login.yahoo.com/",
-	"github": "https://github.com/",
-	"bharatgas": "https://my.ebharatgas.com/bharatgas/User/Login",
-	"clickhouse": "https://clickhouse.com/docs",
-	"yfinance": "https://finance.yahoo.com/quote/WMT/",
-	"youtube": "https://www.youtube.com/",
-	"yahoo": "https://yahoo.com",
-	"golang": "https://go.dev/doc/effective_go",
-	"gopkg": "https://pkg.go.dev/"
+  "clickhouse": "https://clickhouse.com/docs",
+  "golang": "https://go.dev/doc/effective_go",
+  "gmail": "https://mail.google.com/mail/u/0/#inbox",
+  "ymail": "https://mail.yahoo.com/d/folders/1",
+  "amazon": "https://www.amazon.in/"
 }
