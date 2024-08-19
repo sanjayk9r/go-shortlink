@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # build
-docker container rm shortlink-service && echo "container removed"
-docker build -t shortlink-service:latest . \
+docker container rm go-shortlink-svc && echo "container removed"
+docker build -t go-shortlink-svc:latest . \
 	&& echo "build successfull" \
 	|| echo "build failed"

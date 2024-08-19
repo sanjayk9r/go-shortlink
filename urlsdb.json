@@ -1,7 +1,6 @@
 {
-  "clickhouse": "https://clickhouse.com/docs",
-  "golang": "https://go.dev/doc/effective_go",
-  "gmail": "https://mail.google.com/mail/u/0/#inbox",
-  "ymail": "https://mail.yahoo.com/d/folders/1",
-  "amazon": "https://www.amazon.in/"
+  "gmail": "https://mail.google.com/",
+  "ymail": "https://login.yahoo.com/",
+  "github": "https://github.com/",
+  "yahoo": "https://yahoo.com"
 }
